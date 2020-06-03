@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://hugeota.d.miui.com/20.6.1/miui_MI6X_20.6.1_a2be55e3c6_9.0.zip
+  ROM_URL: https://hugeota.d.miui.com/20.6.3/miui_HMNote5_20.6.3_67cd9929c7_9.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -49,7 +49,8 @@ jobs:
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
               sudo bash setup.sh
-       
+              sudo sed -i '7c AB=false' url2GSI.sh
+              sudo sed -i '8c Aonly=true' url2GSI.sh
        - name: Download Stock Rom & Generate GSI
          run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
        
