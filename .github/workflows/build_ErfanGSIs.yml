@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://hugeota.d.miui.com/20.6.4/miui_MI6X_20.6.4_fbe82eead6_9.0.zip
+  ROM_URL: https://www.manosp.com/mandfx/dev/miui_RedmiNote7Pro_20.6.6_10.0_manosp.com@259D7DF8F4.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
