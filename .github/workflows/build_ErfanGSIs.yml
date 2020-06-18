@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://www.manosp.com/mandfx/dev/miui_RedmiNote7Pro_20.6.6_10.0_manosp.com@259D7DF8F4.zip
-  ROM_NAME: MIUI
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/note9/8.20.6.16/cn_beta/20200611202926/57b83c8b/update.zip
+  ROM_NAME: Flyme
   TZ: Asia/Shanghai
 
 jobs:
